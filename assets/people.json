@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Slyvester Mako",
+    "image": "mako.png",
+    "role": "Business"
+  },
+  {
+    "name": "Umejiofor Tony",
+    "image": "anthony.png",
+    "role": "Engineering"
+  },
+  {
+    "name": "Assumpta Osuagwu",
+    "image": "assumpta.png",
+    "role": "Business"
+  },
+  {
+    "name": "Chibueze Ejimkeonye",
+    "image": "chibueze.png",
+    "role": "Engineering"
+  },
+  {
+    "name": "Chukwurah Chuka",
+    "image": "chuka.png",
+    "role": "Engineering"
+  },
+  {
+    "name": "Chidimma Izugbunam",
+    "image": "chidimma.png",
+    "role": "Business"
+  },
+  {
+    "name": "Chinedu Chukwukelu",
+    "image": "chinedu.png",
+    "role": "Engineering"
+  },
+  {
+    "name": "Brajesh Kumar",
+    "image": "brajesh.png",
+    "role": "Project Management"
+  },
+  {
+    "name": "Chidiebere Onyekachi",
+    "image": "chidiebere.png",
+    "role": "Engineering"
+  },
+  {
+    "name": "Darlynton Nwachukwu",
+    "image": "darlynton.png",
+    "role": "Design"
+  },
+  {
+    "name": "Rajneesh Kumar ",
+    "image": "rajneesh.png",
+    "role": "Engineering"
+  },
+  {
+    "name": "Collins Mbaebie",
+    "image": "collins.png",
+    "role": "Engineering"
+  },
+  {
+    "name": "Augustus Onunaku",
+    "image": "augustus.png",
+    "role": "Sales"
+  },
+  {
+    "name": "Oke Mary",
+    "image": "mary.png",
+    "role": "Business"
+  },
+  {
+    "name": "Faisal Muhammad",
+    "image": "faisal.png",
+    "role": "Business"
+  },
+  {
+    "name": "Dominic Andeshi",
+    "image": "dominic.png",
+    "role": "Engineering"
+  },
+  {
+    "name": "Orinya Emmanuel",
+    "image": "emmanuel.png",
+    "role": "Business"
+  },
+  {
+    "name": "Ethothy Kanu",
+    "image": "ethothy.png",
+    "role": "Business"
+  },
+  {
+    "name": "Njideka Obi",
+    "image": "njideka.png",
+    "role": "Business"
+  },
+  {
+    "name": "Ifeadi Frank",
+    "image": "frank.png",
+    "role": "Business"
+  },
+  {
+    "name": "Godwin Agbonweze",
+    "image": "godwin.png",
+    "role": "Support"
+  },
+  {
+    "name": "Hussaini Sani",
+    "image": "hussaini.png",
+    "role": "Business"
+  },
+  {
+    "name": "Anonymous",
+    "image": "ifeanyi.png",
+    "role": "Business"
+  },
+  {
+    "name": "Ilowa Inabo",
+    "image": "ilowa.png",
+    "role": "Sales"
+  },
+  {
+    "name": "Kevin Odafe",
+    "image": "kelvin.png",
+    "role": "Engineering"
+  },
+  {
+    "name": "Lawrence Amakom",
+    "image": "lawrence.png",
+    "role": "Support"
+  },
+  {
+    "name": "Aliyu Anka",
+    "image": "aliyu.png",
+    "role": "Business"
+  },
+  {
+    "name": "Opoko Michael",
+    "image": "michael.png",
+    "role": "Sales"
+  },
+  {
+    "name": "Tita Wilfred",
+    "image": "tita.png",
+    "role": "Business"
+  },
+  {
+    "name": "Ndibe Ifeanyi",
+    "image": "ndibe.png",
+    "role": "Sales"
+  },
+  {
+    "name": "Chinonso Iboko",
+    "image": "chinonso.png",
+    "role": "Business"
+  },
+  {
+    "name": "Janefrances Nwachukwu",
+    "image": "nkechi.png",
+    "role": "Support"
+  },
+  {
+    "name": "Emmanuel Aghadinuno",
+    "image": "omen.png",
+    "role": "Support"
+  },
+  {
+    "name": "Onuorah Francis",
+    "image": "onuorah.png",
+    "role": "Business"
+  },
+  {
+    "name": "Emehelu Raphael .O",
+    "image": "rapheal.png",
+    "role": "Engineering"
+  },
+  {
+    "name": "Rita Anthony",
+    "image": "rita.png",
+    "role": "Support"
+  },
+  {
+    "name": "Stephen Okafor",
+    "image": "stephen.png",
+    "role": "Business"
+  },
+  {
+    "name": "MaryBlessing Umeh",
+    "image": "ngozi.png",
+    "role": "Engineering"
+  },
+  {
+    "name": "Chibuike Oguama",
+    "image": "chibuike.png",
+    "role": "Business"
+  },
+  {
+    "name": "Daberechi Uzoh",
+    "image": "daberechi.png",
+    "role": "Design"
+  }
+]

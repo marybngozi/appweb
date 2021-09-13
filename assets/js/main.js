@@ -1,6 +1,8 @@
 /*
     js of main
     --------------------------
+    ** page copyright
+    --------------------------
     ** hover Button (letter Effect)
     --------------------------
     ** Effect on Menu for Mobile
@@ -42,22 +44,32 @@
 
 */
 
+// inject the year dynamically
+document.querySelector('.copyrighty').innerHTML = new Date().getFullYear().toString();
+
 (function ($) {
   "use strict";
 
   jQuery(document).on('ready', function () {
     const logoEl = document.querySelector('#logo');
+    const vb = $('#ripplemenu');
+    const menuBtn = document.querySelector('#menuBtn');
 
     /*-----------------------------
        Close the menu when clicking on any link
      -----------------------------*/
 
-    $('.header-nav-center .nav-link').on('click', function (e) {
+    $('.header-nav-center .nav-link:not(#navbarDropdown)').on('click', function (e) {
       $('.header-nav-center .navbar-collapse').collapse('hide');
       $('.header-nav-center .menu.ripplemenu').removeClass('active');
     });
 
-    /*-----------------------------
+    $('.header-nav-center .dropdown-item').on('click', function (e) {
+      $('.header-nav-center .navbar-collapse').collapse('hide');
+      $('.header-nav-center .menu.ripplemenu').removeClass('active');
+    });
+
+    /*-----------------------------s
       Fixed Navigation
     -----------------------------*/
     if ($('header').offset().top > 50) {
@@ -69,11 +81,13 @@
     $(window).on('scroll', function () {
       /* Fixed Navigation */
       if ($('header').offset().top > 50) {
+        vb.addClass('menu-svg-color');
         if (logoEl) {
           logoEl.setAttribute('src', '../../assets/img/logo2.svg');
           $('body').addClass('fixed-header');
         }
       } else {
+        vb.removeClass('menu-svg-color');
         if (logoEl) {
           logoEl.setAttribute('src', '../../assets/img/logo.svg');
           $('body').removeClass('fixed-header');
@@ -134,6 +148,22 @@
         btn.classList.toggle('active');
       });
     });
+
+    /*-----------------------------
+       assign menu (header) color to white on < 50 scroll height
+     -----------------------------*/
+    menuBtn.addEventListener('click', e => {
+      //btn.classList.toggle('active')
+      if ($('header').offset().top <= 50 && menuBtn.classList.contains('active')) {
+        vb.addClass('menu-svg-color');
+        $('body').addClass('fixed-header');
+        logoEl.setAttribute('src', '../../assets/img/logo2.svg');
+      }else if($('header').offset().top <= 50 && !menuBtn.classList.contains('active')){
+        vb.removeClass('menu-svg-color');
+        $('body').removeClass('fixed-header');
+        logoEl.setAttribute('src', '../../assets/img/logo.svg');
+      }
+    })
 
     /*-----------------------------
       Smooth Scrollspy to (For Navbar)
@@ -601,9 +631,6 @@
     delay: .6,
     transition: 'cubic-bezier(0,0,0,1)'
   });
-
-
-
 
   /*-----------------------------
     Checkbox Select

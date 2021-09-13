@@ -3206,9 +3206,19 @@ header .navbar .navbar-collapse .nav_account.btn_demo2 .btn_sm_primary {
 header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   /* border: 1px solid #edeef1; */
 }
+#navbarDropdown {
+  text-decoration: none;
+  /*color: #ffffff;*/
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-right: 1.25rem;
+  display: block;
+  padding: .5rem 1rem;
+}
 @media (max-width: 991px) {
   header {
-    background: #ffffff;
+    /*background: #ffffff;*/
   }
   header .navbar-toggler:focus {
     border: 0;
@@ -3224,7 +3234,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
     font-size: 18px !important;
   }
   header .navbar-brand .logo {
-    width: 24px !important;
+    /*width: 24px !important;*/
   }
   header .navbar-collapse {
     margin-left: 0 !important;
@@ -3713,6 +3723,10 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   .demo_1.banner_section {
     padding-top: 6rem;
   }
+  .demo_1.banner_section .banner_title h1 {
+    font-size: 32px;
+    margin-top: 0;
+  }
 }
 .demo_1.banner_section .banner_title {
   margin-bottom: 30px;
@@ -3759,6 +3773,19 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   .demo_2.banner_section {
     padding-top: 6rem;
     height: 100%;
+  }
+
+  .phone-img {
+    margin-top: 50px;
+    width: 90%;
+    height: auto !important;
+  }
+
+  .demo_2.banner_section .banner_title h1 {
+    font-size: 30px;
+  }
+  .demo_2.banner_section .banner_title p {
+    font-size: 14px;
   }
 }
 .demo_2.banner_section .fixed_overlay {
@@ -4075,6 +4102,9 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   .banner_demo7 {
     padding-bottom: 2rem;
   }
+  .btn-video {
+    padding: 0.7rem 1.9rem;
+  }
 }
 .banner_demo7 .btn-video {
   width: 50px;
@@ -4291,6 +4321,24 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 @media (max-width: 991px) {
   .demo__workspace::before {
     background-size: cover;
+  }
+
+  .demo_2.banner_section .banner_title h1 {
+    font-size: 36px;
+  }
+
+  .demo_2.banner_section .banner_title p {
+    font-size: 14px;
+  }
+
+  .btn-video {
+    padding: 0.65rem 1.99rem !important;
+  }
+
+  .phone-img {
+    /*margin-top: 50px;*/
+    width: 100%;
+    height: 350px;
   }
 }
 .demo__workspace .block__srarch {
@@ -8053,7 +8101,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 @media (max-width: 767px) {
   .productsapp_section .product--app {
-    width: 100%;
+    width: 95%;
     padding: 2rem 0.5rem;
   }
 }
@@ -8087,11 +8135,11 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 @media (max-width: 991px) {
   .productsapp_section .product--app .mobile_app {
-    height: 520px;
+    height: 350px;
   }
 }
 .productsapp_section .product--app .mobile_app img {
-  width: auto;
+  width: 100%;
   height: auto;
 }
 .productsapp_section .product--app .mobile_app .forward {
@@ -9089,6 +9137,10 @@ software_web
   .options_pricing .blocks_pricing .item__price {
     width: 100%;
   }
+
+  .options_pricing .table_pricing {
+    margin-top: 3rem !important;
+  }
 }
 .options_pricing .blocks_pricing .item__price .btn_tryit {
   border: 1px solid #edeef1;
@@ -9097,6 +9149,10 @@ software_web
 }
 .options_pricing .blocks_pricing .item__price.is_best {
   background-color: #d72f27 !important;
+  position: relative;
+}
+.options_pricing .blocks_pricing .item__price.is_best.internl  {
+  background-color: #0B2238 !important;
   position: relative;
 }
 .options_pricing .blocks_pricing .item__price.is_best::before {
@@ -11733,12 +11789,29 @@ software_web
   .about_section .img-products {
     margin-top: 2rem;
   }
+
+  .about_section .logo_items .items .item-client img{
+    width: 62px !important;
+  }
+
+  .gp {
+    margin-right: 0.5rem;
+  }
+
+  .gp img {
+    width: 65px !important;
+  }
 }
 .about_section .img-products .pro--img {
   object-fit: cover;
-  height: 650px;
+  /*height: 650px;*/
   border-radius: 10px;
 }
+.about_section .logo_items .items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .about_section .logo_items .items .item-client {
   margin-left: 0;
   margin-right: 1.5rem;
@@ -12213,6 +12286,9 @@ software_web
 .tabs_service .tab-content .tab-pane .--img {
   width: 45vw;
 }
+/*.tab-content {*/
+/*  width: 100%;*/
+/*}*/
 @media (max-width: 767px) {
   .tabs_service .tab-content .tab-pane .--img {
     width: 100%;
@@ -18005,13 +18081,16 @@ html:not(.no-js) [data-aos="fade-up"] {
   height: 48px;
   top: -6px;
   left: -14px;
-  stroke: #0b2238;
+  stroke: #ffffff;
   stroke-width: 0.2rem;
   stroke-linecap: round;
   stroke-linejoin: round;
   fill: none;
   display: block;
   position: absolute;
+}
+.menu-svg-color {
+  stroke: #0b2238 !important;
 }
 @media (max-width: 991px) {
   .menu svg {
