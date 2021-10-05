@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="A software solution company" />
+  <meta name="keywords"
+        content="Payment Gateway, school portal, software firm, Fintech in Africa" />
+  <meta name="author" content="Appmart Integrated" />
+
+  <title>Appmart | Dashboard</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="../assets/img/favicon.svg" type="image/x-icon" />
+  <!-- Bootstrap 4.5 -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css" type="text/css" />
+  <!-- animate -->
+  <link rel="stylesheet" href="../assets/css/animate.css" type="text/css" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="../assets/css/swiper.min.css" />
+  <!-- icons -->
+  <link rel="stylesheet" href="../assets/css/icons.css" type="text/css" />
+  <!-- aos -->
+  <link rel="stylesheet" href="../assets/css/aos.css" type="text/css" />
+  <!-- main css -->
+<!--  <link rel="stylesheet" href="../assets/css/main.css" type="text/css" />-->
+  <!-- normalize -->
+  <link rel="stylesheet" href="../assets/css/normalize.css" type="text/css" />
+
+  <!-- js for Browser -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <style>
+      main {
+          background: #F5F6F8;
+          height:calc(100vh - 65px);
+          width:100vw;
+      }
+      .logo {
+          font-weight: 500;
+          font-size: 20px;
+          width: 140px !important;
+      }
+      main div p {
+          font-size: 30px;
+          color: #CDCFD4;
+      }
+      #menuBtn{
+          display: block;
+      }
+      #sideNav {
+          background: #03435F;
+          height:calc(100vh - 65px);
+          width: 0;
+          position: absolute;
+          left: 0px;
+          overflow-x: hidden;
+          transition: 0.5s;
+      }
+      #sideNav h6{
+          line-height: 10px;
+      }
+      #sideNav small {
+          color: #BFB8B8;
+      }
+      #sideNav > div > div:last-child {
+          position: absolute;
+          bottom: 0;
+      }
+      .bg-gray {
+          background: #F5F6F8;
+      }
+      input {
+          border-radius: 0 0.25rem 0.25rem 0 !important;
+          outline: none;
+          width: 296px !important;
+          height: 38px !important;
+      }
+      .search-btn {
+          border-radius: 0.25rem 0 0 0.25rem !important;
+          color: #726e6e;
+      }
+      input:focus, .search-btn:focus {
+          outline: none;
+          box-shadow: none;
+      }
+      input::placeholder {
+          font-size: 14px;
+          color: #C4C4C4;
+      }
+      /*Large devices (desktops, 992px and up)*/
+      @media (min-width: 992px) {
+          #sideNav {
+              width: 230px;
+          }
+          #menuBtn{
+              display: none;
+          }
+      }
+  </style>
+</head>
+
+<body>
+  <header class="border border-bottom">
+    <nav class="d-flex justify-content-between ml-3 ml-lg-4 my-3">
+      <a href="./home/index.html">
+        <img src="../assets/img/logo2.svg" alt="logo" class="logo">
+      </a>
+
+      <div class="d-none d-lg-flex">
+        <button class="btn btn-link bg-gray search-btn">
+          <i class="tio search mt-1"></i>
+        </button>
+        <input type="text" placeholder="Search" class="form-control border-0 bg-gray">
+      </div>
+
+     <div class="d-flex mr-4">
+       <img width="22" class="mr-2 mr-lg-5" height="24" src="../assets/img/bell-icon.svg" alt="bell icon">
+
+       <button id="menuBtn" class="ml-3 btn btn-link p-0">
+         <img width="27" height="26" src="../assets/img/menu.svg" alt="menu icon">
+       </button>
+     </div>
+    </nav>
+  </header>
+
+  <!-- SIDE BAR NAV  -->
+  <section id="sideNav">
+    <div class="p-4">
+      <div class="d-flex mt-4 ml-2">
+        <img class="rounded-circle" width="36" height="36" src="../assets/img/persons/ngozi.png" alt="user image">
+        <div class="ml-2">
+          <h6 class="text-white m-0 mt-1">Mary Igwe</h6>
+          <small class="">maryigwe@gmail.com</small>
+        </div>
+      </div>
+
+      <div class="d-flex mt-5 ml-2">
+        <p class="font-weight-bold text-white">Change Password</p>
+      </div>
+
+      <div class="d-flex mt-5 ml-2">
+        <img width="24" height="24" src="../assets/img/logout.svg" alt="logout icon">
+        <p class="font-weight-bold text-white ml-2">Logout</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="d-flex justify-content-center">
+    <div class="align-self-center">
+      <img  src="../assets/img/loading.svg" alt="loading icon" width="168" height="170">
+      <p class="text-center font-weight-bolder">Coming Soon!</p>
+    </div>
+  </main>
+  <script src="../assets/js/pages/dashboard.js"></script>
+</body>
+</html>
